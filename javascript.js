@@ -14,5 +14,11 @@ function createGrid(size) {
     }
 }
 
-
 createGrid(5);
+
+const columns = document.querySelectorAll(".column");
+columns.forEach((square) =>{
+    square.addEventListener('mouseover', () =>{
+        square.style.backgroundColor = "black";
+    })
+})
