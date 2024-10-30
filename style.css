@@ -8,11 +8,43 @@ body{
     align-items: center;
 }
 
+header{
+    min-width: 50%;
+    text-align: center;
+}
+
 .container {
     flex: 1;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     border: 3px solid black;
-    min-width: 40%;
+    min-width: 33%;
+    background-color: white;
+}
+
+
+
+input[type="range"]#size{   
+    -webkit-appearance: none;
+    width: 20%;
+    height: 15px;
+    background: #ffde03;
+    outline: none;
+    border: 5px solid #000;
+    border-radius: 8px;
+}
+
+#size::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 30px;
+    background: #ffde03;
+    cursor: pointer;
+    border: 5px solid #000;
+    border-radius: 4px;
+  }
+label{
+    font-size: 2rem;
 }
