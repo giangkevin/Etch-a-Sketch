@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
+
 body{
     background-color: #ffde03;
     font-family: 'Pixelify Sans', 'sans-serif';
@@ -28,7 +29,7 @@ header{
 
 
 input[type="range"]#size{   
-    -webkit-appearance: none;
+    appearance: none;
     width: 20%;
     height: 10px;
     background: #ffde03;
