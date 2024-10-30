@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
 body{
     background-color: #ffde03;
     font-family: 'Pixelify Sans', 'sans-serif';
@@ -21,6 +22,7 @@ header{
     border: 3px solid black;
     min-width: 33%;
     background-color: white;
+    margin-top: 25px;
 }
 
 
@@ -28,7 +30,7 @@ header{
 input[type="range"]#size{   
     -webkit-appearance: none;
     width: 20%;
-    height: 15px;
+    height: 10px;
     background: #ffde03;
     outline: none;
     border: 5px solid #000;
@@ -47,4 +49,14 @@ input[type="range"]#size{
   }
 label{
     font-size: 2rem;
+    font-family: "VT323", monospace;
+}
+
+.reset{
+    border-radius: 20px;
+    padding: 1.2rem;
+    background-color: transparent;
+    font-family: 'Pixelify Sans', 'sans-serif';
+    font-weight: bolder;
+    font-size: larger;
 }
