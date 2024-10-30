@@ -9,7 +9,7 @@
         <header>
             <h1>Etch-a-Sketch</h2>
                 <div class="slider">
-                    <label for="size">Size : <output id="value"></output></label>
+                    <label for="size">Size : <output id="valueSize"></output></label>
                     <input type="range" id="size" name="size" min="0" max="100" value="16">
                     <button class="reset">Create new Grid</button>
                 </div>
@@ -17,7 +17,13 @@
         <div class="container">
         </div>
         <footer>
-            <h2>Kévin Giang</h2>
+            <div>
+                <label for="opacity">Opacity : <output id ="valueOpacity"></output></label>
+                <input type="range" id="opacity" name="opacity" min="0" max="1" step="0.1">
+                <label for="palette">ColorPicker</label>
+                <input type="color" id="palette">
+            </div>
+            <h2 style="text-align: center;">Kévin Giang</h2>
         </footer>
         <script src="javascript.js"></script>
     </body>

@@ -4,7 +4,7 @@
 body{
     background-color: #ffde03;
     font-family: 'Pixelify Sans', 'sans-serif';
-    min-height: 90vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@ header{
 
 
 
-input[type="range"]#size{   
+input[type="range"]#size, input[type="range"]#opacity{   
     appearance: none;
     width: 20%;
     height: 10px;
@@ -38,7 +38,7 @@ input[type="range"]#size{
     border-radius: 8px;
 }
 
-#size::-webkit-slider-thumb {
+#size::-webkit-slider-thumb, #opacity::-webkit-slider-thumb {
     appearance: none;
     width: 20px;
     height: 30px;
@@ -60,4 +60,23 @@ label{
     font-family: 'Pixelify Sans', 'sans-serif';
     font-weight: bolder;
     font-size: larger;
+}
+
+input[type="color"]#palette{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border-color: rgb(153, 153, 153);
+}
+
+#palette::-webkit-color-swatch{
+    border-radius: 50%;
+}
+
+footer{
+    margin-top: 25px;
+}
+footer > div{
+    display: flex;
+    gap: 16px;
 }
