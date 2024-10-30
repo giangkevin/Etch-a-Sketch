@@ -46,7 +46,8 @@ input[type="range"]#size{
     cursor: pointer;
     border: 5px solid #000;
     border-radius: 4px;
-  }
+}
+
 label{
     font-size: 2rem;
     font-family: "VT323", monospace;
