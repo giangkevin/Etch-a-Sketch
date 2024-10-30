@@ -39,7 +39,6 @@ input[type="range"]#size{
 }
 
 #size::-webkit-slider-thumb {
-    -webkit-appearance: none;
     appearance: none;
     width: 20px;
     height: 30px;
