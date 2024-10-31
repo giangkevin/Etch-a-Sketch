@@ -51,20 +51,7 @@ function reset() {
     }
 }
 
-
-function getRandomColor() {
-    let value = '0123456789ABCDEF';
-    let color = "#";
-
-    for (let i = 0; i < 6; i++){
-        color += value[Math.floor(Math.random() * value.length)];
-    }
-
-    return color;
-}
-
 createGrid(16);
-
 
 const valueSize = document.querySelector("#valueSize");
 const inputSize = document.querySelector("#size");
